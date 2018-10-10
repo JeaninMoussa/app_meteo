@@ -1,0 +1,61 @@
+.clouds{
+  background-image: url('https://img.bfmtv.com/c/1000/600/03f0c51/52f2007f1be1ba2be53257e13.jpeg');
+}
+
+.rain{
+  background-image: url('https://i2.wp.com/blog.jacquesdemeter.fr/wp-content/uploads/2016/04/chaussures-et-pluie.jpg?w=1160&ssl=1');
+}
+
+.snow{
+  background-image: url('https://image1.lamontagne.fr/photoSRC/VVNUJ1paUTgIBhVOCRAHHQ4zRSkXaldfVR5dW1sXVA49/neige-consequences_3601904.jpeg');
+}
+
+.clear{
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9gFDG0Oe_GcXAkC9Ru2gZJ72fvlRS_K3k0yOpHub84cWACOJUaA');
+}
+
+body{
+  font-family: 'Trebuchet MS';
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px rgba(0, 0 ,0, 0.5);
+  height: 100vh;
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+}
+
+h1{
+  font-size: 3em;
+}
+
+i.wi{
+  font-size: 5em;
+  line-height: 3em;
+}
+
+h2{
+  font-size: 2em;
+}
+
+.tooltip{
+  margin-left: 18%;
+  opacity: 0;
+  position: absolute;
+  top: 0px;
+  left: 10px;
+  color: #fff;
+  background-color: #222;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 12px;
+  transition: opacity .3s, top .5s;
+}
+
+h1:hover .tooltip{
+  top: 10px;
+  opacity: 1;
+}
